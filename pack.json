@@ -1,0 +1,30 @@
+{
+  "id": "beam-office-pack",
+  "name": "Beam Office Pack",
+  "version": "1.0.0",
+  "basedOn": "VibeOffice (Apache License 2.0)",
+  "homepage": "https://github.com/tcchen2026/VibeOffice",
+  "apps": [
+    {
+      "id": "write",
+      "page": "quire/",
+      "name": "Beam Write",
+      "kind": "word",
+      "ext": ["docx", "docm", "dotx", "dotm", "rtf", "md", "txt", "htm"]
+    },
+    {
+      "id": "sheets",
+      "page": "ledger/",
+      "name": "Beam Sheets",
+      "kind": "spreadsheet",
+      "ext": ["xlsx", "xlsm", "xltx", "xltm", "csv"]
+    },
+    {
+      "id": "slides",
+      "page": "lectern/",
+      "name": "Beam Slides",
+      "kind": "presentation",
+      "ext": ["pptx", "pptm", "ppsx", "ppsm", "potx", "potm"]
+    }
+  ]
+}
